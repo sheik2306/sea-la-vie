@@ -1,0 +1,46 @@
+<header id="top" class="header">
+  <div class="text-vertical-center" style="padding-top: 80px; padding-left: 0px;">
+    <h1>Sea La Vie</h1>
+    <h3>Votre arrêt numéro 1 à Saint-Martin!</h3>
+    <hr class="small">
+    <h3>Number 1 stop in Sint-Marteen!</h3>
+    <br>
+    <a href="#" class="btn btn-dark btn-lg scroll-to-carousel">Voir les photos</a>
+  </div>
+</header>
+
+<script>
+  document.querySelector('.scroll-to-carousel').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('.carousel__holder').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  $(document).ready(function () {
+    function openMenu() {
+      $("#sidebar-wrapper").addClass("open");
+    }
+
+    function closeMenu() {
+      $("#sidebar-wrapper").removeClass("open");
+    }
+
+    // Toggle menu on button click
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#sidebar-wrapper").toggleClass("open");
+    });
+
+    // Close menu when clicking on a menu link
+    $(".menu-link").click(function () {
+      closeMenu();
+    });
+
+    // Close menu when clicking outside of it
+    $(document).click(function (e) {
+      if (!$(e.target).closest("#sidebar-wrapper, #menu-toggle").length) {
+        closeMenu();
+      }
+    });
+  });
+
+</script>
