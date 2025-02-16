@@ -1,14 +1,81 @@
 <header id="top" class="header">
-  <div class="text-vertical-center" style="padding-top: 80px; padding-left: 0px;">
-    <h1>Sea La Vie</h1>
-    <h3>Votre arrêt numéro 1 à Saint-Martin!</h3>
-    <hr class="small">
-    <h3>Number 1 stop in Sint-Marteen!</h3>
-    <br>
-    <a href="#" class="btn btn-dark btn-lg scroll-to-carousel">Voir les photos</a>
+  <div class="text-vertical-center">
+    <h1 class="main-title">Sea La Vie</h1>
+    <div class="text-center sub-text">
+      <h3>Votre arrêt numéro 1 à Saint-Martin!</h3>
+      <hr class="small">
+      <h3>Number 1 stop in Sint-Marteen!</h3>
+      <br>
+      <a href="#" class="btn btn-dark btn-lg scroll-to-carousel">Voir les photos</a>
+    </div>
   </div>
 </header>
 
+<style>
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.text-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-title {
+  margin-top: 10vh; /* Adjust the space above the main title */
+  margin-bottom: 2rem; /* Adjust the space below the main title */
+  font-size: 4rem; /* Adjust the font size as needed */
+}
+
+.sub-text {
+  margin-top: 2rem; /* Adjust the space above the sub-text */
+}
+
+@media (max-width: 1200px) {
+  .text-vertical-center {
+    margin-top: 10vh; /* Adjust the space above the main title for smaller screens */
+  }
+  .main-title {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    margin-top: 100vh; /* Adjust the space above the main title for smaller screens */
+  }
+
+  .sub-text {
+    margin-top: 2rem; /* Adjust space for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .sub-text {
+    margin-top: 40vh; /* Adjust the space above the main title for smaller screens */
+    margin-bottom: 30vh; /* Adjust the space above the main title for smaller screens */
+
+  }
+}
+
+@media (max-width: 358px) {
+  .main-title {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .sub-text {
+    margin-top: 25vh; /* Adjust the space above the main title for smaller screens */
+    margin-bottom: 30vh; /* Adjust the space above the main title for smaller screens */
+
+  }
+}
+</style>
 <script>
   document.querySelector('.scroll-to-carousel').addEventListener('click', function(event) {
     event.preventDefault();
