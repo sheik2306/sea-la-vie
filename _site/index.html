@@ -87,16 +87,83 @@
 </script>
 
   <header id="top" class="header">
-  <div class="text-vertical-center" style="padding-top: 80px; padding-left: 0px;">
-    <h1>Sea La Vie</h1>
-    <h3>Votre arrêt numéro 1 à Saint-Martin!</h3>
-    <hr class="small">
-    <h3>Number 1 stop in Sint-Marteen!</h3>
-    <br>
-    <a href="#" class="btn btn-dark btn-lg scroll-to-carousel">Voir les photos</a>
+  <div class="text-vertical-center">
+    <h1 class="main-title">Sea La Vie</h1>
+    <div class="text-center sub-text">
+      <h3>Votre arrêt numéro 1 à Saint-Martin!</h3>
+      <hr class="small">
+      <h3>Number 1 stop in Sint-Marteen!</h3>
+      <br>
+      <a href="#" class="btn btn-dark btn-lg scroll-to-carousel">Voir les photos</a>
+    </div>
   </div>
 </header>
 
+<style>
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.text-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-title {
+  margin-top: 10vh; /* Adjust the space above the main title */
+  margin-bottom: 2rem; /* Adjust the space below the main title */
+  font-size: 4rem; /* Adjust the font size as needed */
+}
+
+.sub-text {
+  margin-top: 2rem; /* Adjust the space above the sub-text */
+}
+
+@media (max-width: 1200px) {
+  .text-vertical-center {
+    margin-top: 10vh; /* Adjust the space above the main title for smaller screens */
+  }
+  .main-title {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    margin-top: 100vh; /* Adjust the space above the main title for smaller screens */
+  }
+
+  .sub-text {
+    margin-top: 2rem; /* Adjust space for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .sub-text {
+    margin-top: 40vh; /* Adjust the space above the main title for smaller screens */
+    margin-bottom: 30vh; /* Adjust the space above the main title for smaller screens */
+
+  }
+}
+
+@media (max-width: 358px) {
+  .main-title {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .sub-text {
+    margin-top: 25vh; /* Adjust the space above the main title for smaller screens */
+    margin-bottom: 30vh; /* Adjust the space above the main title for smaller screens */
+
+  }
+}
+</style>
 <script>
   document.querySelector('.scroll-to-carousel').addEventListener('click', function(event) {
     event.preventDefault();
@@ -148,7 +215,6 @@
           <li>10 minutes de Philipsburg</li>
         </ul>
         <ul class="custom-list">
-          <li>machine Nespresso</li>
           <li>2 chambres avec 2 salles de bain privées</li>
         </ul>
         <ul class="custom-list">
@@ -167,7 +233,6 @@
           <li>10 minutes from Philipsburg</li>
         </ul>
         <ul class="custom-list">
-          <li>Nespresso machine</li>
           <li>2 bedrooms with 2 private bathrooms</li>
         </ul>
         <ul class="custom-list">
@@ -552,175 +617,175 @@
           <ul>
             
             <li class="carousel__slide">
-              <a href="img/IMG_0802.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_0802.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_0802.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_0803.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_0803.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_0803.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8483.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8483.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8483.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8484.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8484.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8484.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8485.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8485.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8485.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8486.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8486.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8486.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8487.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8487.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8487.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8489.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8489.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8489.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8490.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8490.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8490.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8491.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8491.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8491.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8492.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8492.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8492.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8494.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8494.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8494.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8495.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8495.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8495.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8496.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8496.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8496.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8497.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8497.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8497.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8498.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8498.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8498.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8499.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8499.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8499.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8500.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8500.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8500.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8501.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8501.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8501.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8503.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8503.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8503.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8504.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8504.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8504.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8505.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8505.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8505.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8506.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8506.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8506.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8507.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8507.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8507.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8509.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8509.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8509.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8510.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8510.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8510.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8511.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8511.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8511.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8513.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8513.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8513.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
             
             <li class="carousel__slide">
-              <a href="img/IMG_8514.JPEG"  style="display: block; height: 100%; width: 100%;">
+              <a href="img/IMG_8514.JPEG"  style="display: block; height: 100%; width: 90%;">
                 <img src="img/IMG_8514.JPEG" class="carousel__image" alt="Carousel Image">
               </a>
             </li>
@@ -1954,8 +2019,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_0802.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_0802.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_0802.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_0802.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -1964,8 +2029,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_0803.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_0803.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_0803.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_0803.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -1974,8 +2039,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8098.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8098.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8098.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8098.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -1984,8 +2049,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8483.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8483.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8483.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8483.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -1994,8 +2059,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8484.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8484.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8484.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8484.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2004,8 +2069,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8485.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8485.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8485.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8485.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2014,8 +2079,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8486.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8486.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8486.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8486.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2024,8 +2089,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8487.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8487.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8487.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8487.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2034,8 +2099,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8489.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8489.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8489.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8489.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2044,8 +2109,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8490.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8490.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8490.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8490.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2054,8 +2119,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8491.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8491.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8491.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8491.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2064,8 +2129,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8492.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8492.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8492.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8492.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2074,8 +2139,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8494.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8494.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8494.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8494.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2084,8 +2149,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8495.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8495.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8495.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8495.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2094,8 +2159,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8496.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8496.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8496.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8496.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2104,8 +2169,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8497.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8497.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8497.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8497.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2114,8 +2179,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8498.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8498.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8498.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8498.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2124,8 +2189,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8499.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8499.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8499.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8499.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2134,8 +2199,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8500.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8500.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8500.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8500.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2144,8 +2209,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8501.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8501.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8501.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8501.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2154,8 +2219,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8503.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8503.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8503.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8503.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2164,8 +2229,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8504.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8504.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8504.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8504.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2174,8 +2239,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8505.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8505.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8505.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8505.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2184,8 +2249,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8506.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8506.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8506.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8506.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2194,8 +2259,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8507.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8507.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8507.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8507.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2204,8 +2269,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8509.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8509.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8509.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8509.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2214,8 +2279,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8510.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8510.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8510.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8510.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2224,8 +2289,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8511.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8511.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8511.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8511.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2234,8 +2299,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8513.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8513.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8513.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8513.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2244,8 +2309,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/IMG_8514.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/IMG_8514.JPEG" alt="Portfolio Image">
+                  <a href="img/IMG_8514.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/IMG_8514.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2254,8 +2319,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/bg-2.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/bg-2.JPEG" alt="Portfolio Image">
+                  <a href="img/bg-2.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/bg-2.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2264,8 +2329,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/bg.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/bg.JPEG" alt="Portfolio Image">
+                  <a href="img/bg.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/bg.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
@@ -2274,8 +2339,8 @@
             
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="portfolio-item">
-                  <a href="/img/callout.JPEG">
-                    <img class="img-portfolio img-responsive" src="/img/callout.JPEG" alt="Portfolio Image">
+                  <a href="img/callout.JPEG">
+                    <img class="img-portfolio img-responsive" src="img/callout.JPEG" alt="Portfolio Image">
                   </a>
                 </div>
               </div>
