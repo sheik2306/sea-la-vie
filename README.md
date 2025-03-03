@@ -13,5 +13,5 @@ See the site in action at https://volny.github.io/stylish-portfolio-jekyll/
 
 
 slideshow:
-  - image: img/portfolio-1.jpg
+  - image: img/portfolio-1.JPEG
     caption: Caption for image 1
